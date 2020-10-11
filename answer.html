@@ -5,30 +5,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Quiz App</title>
+  <title>A Shakespeare Quiz</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
     type="text/css" />
   <link href="app.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-<div id="bg-image">
-  <header class="group">
-    <h1>Such Stuff As Dreams Are Made On...</h1>
-    <h2>A Shakespeare Quiz!</h2>
-  </header>
-  <main class="group">
-    <div class="item">
-        <img src="/img/shakespeare-book.jpg" alt="The complete works of William Shakespeare">
-    </div>
-    <div class="item">
-  <a href="/question.html"><button class="button">Start here!</button></a>
-  <h4>“Go wisely and slowly. Those who rush stumble and fall.”</h4>
-</div>
-</main>
+    <header>
+        <h1 id="correctWrong">Correct!</h1>
+      </header>
+      <main>
+          <h3 id="answer">Daniel Day Lewis</h3>
+            <p id="explanation">Daniel Day Lewis claimed he saw his father's ghost on stage and left during the middle of performance. He has never appeared on stage again.</p>
+            <img src="img/day-lewis.png" alt="Daniel Day Lewis as Hamlet"></main>
+            <a href="/question.html"><button id="start-button">Next question!</button></a>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
   <script src="app.js"></script>
-</div>
 </body>
 
 </html>
