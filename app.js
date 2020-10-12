@@ -3,6 +3,7 @@
  */
 const store = {
     // 5 or more questions are required
+    //do I need cu ID's?
     questions: [
       {
         question: 'Which actor claims to have seen his actual father\'s ghost on stage while playing Hamlet?',
@@ -113,11 +114,35 @@ const store = {
   /********** TEMPLATE GENERATION FUNCTIONS **********/
   
   // These functions return HTML templates
+/// what would the arguments be?
+  function generateIntroElement()
+
+  function generateQuestionElement()
+
+  function generateAnswerElement()
+
+  function generateOutcomeElement()
   
   /********** RENDER FUNCTION(S) **********/
   
   // This function conditionally replaces the contents of the <main> tag based on the state of the store
+
+  function renderIntro()
+
+  function renderQuestion()
+
+  function renderAnswer()
+
+  function renderOutcome()
   
   /********** EVENT HANDLER FUNCTIONS **********/
   
   // These functions handle events (submit, click, etc)
+
+  function nextQuestion()
+
+  function submitAnswer()
+
+  function checkAnswer()
+
+  function startOver()
