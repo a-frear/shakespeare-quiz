@@ -118,10 +118,10 @@ const STORE = {
       },
       {
         ansCorrect: 6,
-        outcomeImg: '"./img/results-five-twelfth-night.jpg"',
-        outcomeImgAlt: '"A scene from Twelfth Night"',
-        quote: '‘Some are born great, some achieve greatness, and some have greatness thrust upon them.’',
-        play: '(Twelfth Night, Act 2, Scene 5)'
+        outcomeImg: '"./img/hamlet-benedict-cumberbatch.jpg"',
+        outcomeImgAlt: '"Benedict Cumberbatch as Hamlet"',
+        quote: '‘We know what we are, but know not what we may be.’',
+        play: '(Hamlet, Act 4, Scene 5)'
       },
       {
         ansCorrect: 5,
@@ -132,10 +132,10 @@ const STORE = {
       },
       {
         ansCorrect: 4,
-        outcomeImg: '"./img/result-four-midsummer.jpg"',
-        outcomeImgAlt: '"A scene from A Midsummer\'s Night Dream"',
-        quote: '‘The course of true love never did run smooth.’',
-        play: '(A Midsummer Night’s Dream, Act 1, Scene 1)'
+        outcomeImg: '"./img/sarah-bernhardt-hamlet.jpg"',
+        outcomeImgAlt: '"Sarah Bernhardt as Hamlet"',
+        quote: '‘We know what we are, but know not what we may be.’',
+        play: '(Hamlet, Act 4, Scene 5)'
       },
       {
         ansCorrect: 3,
