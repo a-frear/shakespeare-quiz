@@ -134,8 +134,8 @@ const STORE = {
         ansCorrect: 4,
         outcomeImg: '"./img/sarah-bernhardt-hamlet.jpg"',
         outcomeImgAlt: '"Sarah Bernhardt as Hamlet"',
-        quote: '‘We know what we are, but know not what we may be.’',
-        play: '(Hamlet, Act 4, Scene 5)'
+        quote: '‘There are more things in heaven and earth, Horatio, than are dreamt of in your philosophy.’',
+        play: '(Hamlet, Act 1, Scene 5)'
       },
       {
         ansCorrect: 3,
