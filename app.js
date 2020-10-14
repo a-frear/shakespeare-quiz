@@ -227,22 +227,19 @@ function generateQuestionElement() {
       <div class ="item">
         <form>
           <label for='option-a'>
-          <input type='radio' name='option' value='a' id='option-a' />
+          <input type='radio' name='option' value='a' id='option-a'/>
           ${answerA}</label>
-      </div>
-      <div class ="item">
+          <br>
           <label for='option-b'>
-          <input type='radio' name='option' value='b' id='option-b' />
+          <input type='radio' name='option' value='b' id='option-b'/>
           ${answerB}</label>
-      </div>
-      <div class ="item">
+          <br>
           <label for='option-c'>
-          <input type='radio' name='option' value='c' id='option-c' />
+          <input type='radio' name='option' value='c' id='option-c'/>
           ${answerC}</label>
-      </div>
-      <div class ="item">
+          <br>
           <label for='option-d'>
-          <input type='radio' name='option' value='d' id='option-d' />
+          <input type='radio' name='option' value='d' id='option-d'/>
           ${answerD}</label>
         </form>
       </div>
@@ -366,7 +363,8 @@ function generateAnswerElement() {
       STORE.score++;
       console.log('score:' + STORE.score);
     }
-    });
+    }
+    );
   }
 
   function nextQuestion() {
