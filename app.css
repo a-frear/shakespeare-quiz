@@ -30,8 +30,7 @@ header, p, img, h2, h3 {
 }
 
 img {
-  max-height: 400px;
-  width: 100%
+  width: 90%
 }
 
 header { 
@@ -117,7 +116,6 @@ button {
 
   img {
     margin: 15px;
-    max-width: 600px;
   }
 
 }
