@@ -118,8 +118,8 @@ const STORE = {
       },
       {
         ansCorrect: 6,
-        outcomeImg: '"./img/hamlet-benedict-cumberbatch.jpg"',
-        outcomeImgAlt: '"Benedict Cumberbatch as Hamlet"',
+        outcomeImg: '"./img/sarah-bernhardt-hamlet.jpg"',
+        outcomeImgAlt: '"Sarah Bernhardt as Hamlet"',
         quote: '‘We know what we are, but know not what we may be.’',
         play: '(Hamlet, Act 4, Scene 5)'
       },
@@ -130,10 +130,10 @@ const STORE = {
         quote: '‘The course of true love never did run smooth.’',
         play: '(A Midsummer Night’s Dream, Act 1, Scene 1)'
       },
-      {
+      { 
         ansCorrect: 4,
-        outcomeImg: '"./img/sarah-bernhardt-hamlet.jpg"',
-        outcomeImgAlt: '"Sarah Bernhardt as Hamlet"',
+        outcomeImg: '"./img/hamlet-benedict-cumberbatch.jpg"',
+        outcomeImgAlt: '"Benedict Cumberbatch as Hamlet"',
         quote: '‘There are more things in heaven and earth, Horatio, than are dreamt of in your philosophy.’',
         play: '(Hamlet, Act 1, Scene 5)'
       },
