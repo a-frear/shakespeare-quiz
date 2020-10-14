@@ -47,11 +47,11 @@ header {
 }
 
 #header-1 {
-  font-size: 60px;
+  font-size: 40px;
 }
 
 #header-2 {
-  font-size: 40px;
+  font-size: 30px;
   margin-top: -20px;
 }
 
@@ -72,8 +72,6 @@ p {
   line-height: 21px;
 }
 
-
-
 label {
   font-size: 20px;
 }
@@ -92,21 +90,31 @@ button {
   font-size: 40px;
 }
 
-@media all and (min-width: 1000px) {
-  header, p, img, h2, h3 {
+@media all and (min-width: 800px) {
+  header, p, h2, h3 {
     max-width: 1500px;
-  }
-
-  img {
-    margin: 15px;
-    max-width: 600px;
   }
 
   body {
     text-align: center;
   }
 
+  #header-1 {
+    font-size: 60px;
+  }
+
+  #header-2 {
+    font-size: 40px;
+  }
+
   p {
     padding: 15px 300px;
   }
+
+
+  img {
+    margin: 15px;
+    max-width: 600px;
+  }
+
 }
