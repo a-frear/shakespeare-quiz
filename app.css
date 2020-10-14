@@ -8,7 +8,14 @@
 */
 html {
   background-color: #ead2ac;
+  box-sizing: border-box;
  
+}
+
+body {
+  padding: 15px;
+  font-family: 'PT Serif Caption';
+  margin: 0;
 }
 
 .group {
@@ -16,11 +23,6 @@ html {
     flex-direction: column;
     justify-content: center;
   }
-
-  body {
-    padding: 15px;
-    font-family: 'PT Serif Caption';
-}
 
 button {
     border: 2px black solid;
