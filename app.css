@@ -45,7 +45,7 @@ h3, h4 {
 }
 
 header { 
-  background-image: url('./img/elizabethan-wallpaper.jpg');
+  background-image: url('./../img/elizabethan-wallpaper.jpg');
   background-size: cover;
   font-family: 'Zilla Slab Highlight', cursive;
   min-height: 150px;
