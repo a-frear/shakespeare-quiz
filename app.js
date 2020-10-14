@@ -166,12 +166,7 @@ const STORE = {
         play: '(King Lear, Act 1, Scene 1)'
       }
     ],
-    buttonText: {
-        start: 'Start Here!',
-        submit: 'Submit',
-        next: 'Next Question',
-        restart: 'Once More unto the Breach!'
-    },
+   
     intro: {
         introImg: '"./img/shakespeare-book.jpg"',
         introImgAlt: '"The plays of William Shakespeare"'
