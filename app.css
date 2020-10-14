@@ -94,7 +94,8 @@ button {
 }
 
 #result-quote {
-  font-size: 40px;
+  font-family: 'Averia Serif Libre';
+  font-size: 45px;
 }
 
 @media all and (min-width: 601px) {
