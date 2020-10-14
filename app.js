@@ -196,7 +196,6 @@ const STORE = {
   /********** TEMPLATE GENERATION FUNCTIONS **********/
   
   // These functions return HTML templates
-/// what would the arguments be?
   function generateIntroElement() {
     return `
     <div class="item">
