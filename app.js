@@ -48,7 +48,7 @@ const STORE = {
 
       },
       {
-        question: 'Which of these plays were not written during an outbreak of the plague?',
+        question: 'Which of these plays was not written during an outbreak of the plague?',
         answers: [
           'King Lear',
           'Hamlet',
