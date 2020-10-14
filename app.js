@@ -57,7 +57,7 @@ const STORE = {
         ],
         correctAnswer: 'b',
         answerText: 'Hamlet',
-        explanation: 'King Lear, Macbeth, and Anthony and Cleopatra were all written in 1606, during a bad outbreak of the Bubonic plague. All the theaters were shut down, so maybe Shakespeare had more time to spend writing.',
+        explanation: '"King Lear," "Macbeth," and "Anthony and Cleopatra" were all written in 1606, during a bad outbreak of the Bubonic plague. All the theaters were shut down, so maybe Shakespeare had more time to spend writing.',
         answerImg: '"./img/bubonic-plague.jpg"',
         answerImgAlt: '"An Elizabethan drawing symbolizing the Bubonic Plague"'
       },
@@ -210,15 +210,22 @@ const STORE = {
 
 function generateQuestionElement() {
     i = STORE.questionNumber - 1; 
+  const number = STORE.questionNumber;
   const currentQuestion= STORE.questions[i].question;
   const answerA= STORE.questions[i].answers[0];
   const answerB= STORE.questions[i].answers[1];
   const answerC= STORE.questions[i].answers[2];
   const answerD= STORE.questions[i].answers[3];
+  const numCorrect=STORE.score;
+  const numQues= STORE.questionNumber - 1;
+
     return `
     <div class ="item">
+      <h4>Question #${number}</h4>
+      <h5>Current Score: ${numCorrect}/${numQues}</h5>
       <h3 class="question">${currentQuestion}</h3>
       <div class ="item">
+        <form>
           <label for='option-a'>
           <input type='radio' name='option' value='a' id='option-a' />
           ${answerA}</label>
@@ -237,6 +244,7 @@ function generateQuestionElement() {
           <label for='option-d'>
           <input type='radio' name='option' value='d' id='option-d' />
           ${answerD}</label>
+        </form>
       </div>
       <div class ="item">
       <button id="submit-answer">Submit</button>
