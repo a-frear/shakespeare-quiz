@@ -124,3 +124,10 @@ button {
   }
 
 }
+
+@media all and (max-width: 1050px) {
+
+p {
+  padding: 15px 10px;
+}
+}
