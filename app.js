@@ -265,7 +265,7 @@ function generateAnswerElement() {
       <p id="explanation">${currentExplanation}</p>
   </div>
   <div class="item">
-      <button id="next-question">Next question!</button></a>
+      <button id="next-question">Next question</button></a>
   </div>`
   }
 
