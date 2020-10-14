@@ -271,7 +271,7 @@ function generateAnswerElement() {
   if (STORE.questionNumber = 7) {
     return `
     <div class="item">
-    <h1 class="correct-incorrect">Incorrect</h1>
+    <h2 class="correct-incorrect">Incorrect</h2>
     <h3 id="answer">${currentAnswer}</h3>
   </div>
   <div class="item">

@@ -13,7 +13,6 @@ html {
 }
 
 body {
-  padding: 5px;
   font-family: 'PT Serif Caption';
   margin: 0;
 }
@@ -34,6 +33,8 @@ img {
 }
 
 header { 
+  margin: 0px;
+  padding: 0px;
   background-image: url('https://payload.cargocollective.com/1/22/728149/12658948/elizabethan-woman-online_1000.jpg');
   background-size: cover;
   font-family: 'Zilla Slab Highlight', cursive;
@@ -47,28 +48,38 @@ header {
 
 #header-1 {
   font-size: 35px;
+  padding: 5px;
 }
 
 #header-2 {
   font-size: 25px;
   margin-top: -20px;
+  padding: 5px;
 }
 
 h3, h4 {
   font-family: 'Averia Serif Libre';
+  padding: 5px;
 
 }
 
 h5 {
   margin-top: -20px;
+  padding: 5px;
 }
 
 h3 {
   font-size: 25px;
+  padding: 5px;
 }
 
 p {
   line-height: 21px;
+  padding: 5px;
+}
+
+form {
+  padding: 5px;
 }
 
 label {
@@ -82,11 +93,9 @@ input {
 button {
   border: 2px black solid;
   padding: 10px;
-  margin-top: 15px;
+  margin: 5px 5px 15px 5px;
   background: white;
 }
-
-
 
 #answer {
   font-size: 30px;
@@ -95,6 +104,12 @@ button {
 #result-quote {
   font-family: 'Averia Serif Libre';
   font-size: 45px;
+  padding: 5px;
+}
+
+.correct-incorrect {
+  padding: 5px;
+  font-weight: 50;
 }
 
 @media all and (min-width: 601px) {
