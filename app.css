@@ -76,6 +76,10 @@ label {
   font-size: 20px;
 }
 
+input {
+  margin: 9px;
+}
+
 button {
   border: 2px black solid;
   padding: 10px;
