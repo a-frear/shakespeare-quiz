@@ -14,7 +14,7 @@ const STORE = {
         ],
         correctAnswer: 'c',
         answerText: 'Daniel Day Lewis',
-        explanation: 'Daniel Day Lewis claimed he saw his father\'s ghost on stage and left during the middle of performance. He has never appeared on stage again.',
+        explanation: 'Daniel Day Lewis claimed he saw his father\'s ghost on stage and left during the middle of the performance. He has never appeared on stage again.',
         answerImg: '"./img/day-lewis.png"',
         answerImgAlt: '"Daniel Day Lewis as Hamlet"'
       },
