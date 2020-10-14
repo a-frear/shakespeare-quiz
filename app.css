@@ -6,8 +6,11 @@
   * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
   *
 */
+html {
+  background-color: #ead2ac;
+ 
+}
 
-/****** groups and items ************/
 .group {
     display: flex;
     flex-direction: column;
@@ -16,17 +19,89 @@
 
   body {
     padding: 15px;
+    font-family: 'PT Serif Caption';
 }
 
-.button {
+button {
     border: 2px black solid;
     padding: 10px;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
-p, img, h2, h3 {
+header, p, img, h2, h3 {
   max-width: 600px;
+  
 }
 
+img {
+  max-height: 400px;
+}
 
+h3, h4 {
+  font-family: 'Averia Serif Libre';
 
+}
+
+header { 
+  background-image: url('../img/elizabethan-wallpaper.jpg');
+  background-size: cover;
+  font-family: 'Zilla Slab Highlight', cursive;
+  min-height: 150px;
+  color: white;
+  text-shadow: -1px 1px 0 #000,
+  1px 1px 0 #000,
+ 1px -1px 0 #000,
+-1px -1px 0 #000;
+}
+
+#header-1 {
+  font-size: 60px;
+}
+
+#header-2 {
+  font-size: 40px;
+  margin-top: -20px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  line-height: 21px;
+}
+
+input {
+  padding: 35px;
+  margin: 5px;
+}
+
+label {
+  font-size: 20px;
+}
+
+#answer {
+  font-size: 30px;
+}
+
+#result-quote {
+  font-size: 40px;
+}
+
+@media all and (min-width: 1000px) {
+  header, p, img, h2, h3 {
+    max-width: 1500px;
+  }
+
+  img {
+    margin: 15px;
+  }
+
+  body {
+    text-align: center;
+  }
+
+  p {
+    padding: 15px 300px;
+  }
+}
