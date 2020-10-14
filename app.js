@@ -42,7 +42,7 @@ const STORE = {
         ],
         correctAnswer: 'd',
         answerText: 'His second-best bed',
-        explanation: 'Since Shakespeare did spend most of his life in London away from his wife Anne, its easy to think this may have been a slight. But the best bed was regarded as "an heirloom piece," to be passed to an heir rather than a spouse. It is also likely that the best bed would have been reserved for guests, meaning the “second-best” was the bed that William and Anne shared. Shakespeare died at home with his family in Stratford-upon-Avon when he was 52 years old.',
+        explanation: 'Since Shakespeare spent most of his life in London away from his wife Anne, its easy to think this may have been a slight. But the best bed was regarded as "an heirloom piece," to be passed to an heir rather than a spouse. It is also likely that the best bed would have been reserved for guests, meaning the “second-best” was the bed that William and Anne shared. Shakespeare died at home with his family in Stratford-upon-Avon when he was 52 years old.',
         answerImg: '"./img/second-best-bed.jpeg"',
         answerImgAlt: '"An Elizabethan bed"'
 
@@ -85,7 +85,7 @@ const STORE = {
         ],
         correctAnswer: 'd',
         answerText: 'Love\'s Labour\'s Lost',
-        explanation: 'This word is spoken by Costard in Act 5, Scene 1 of Love\'s Labor\'s Lost. This play is known for its complicated and dense language.',
+        explanation: 'This word is spoken by Costard in Act 5, Scene 1 of "Love\'s Labor\'s Lost." This play is known for its complicated and dense language.',
         answerImg: '"./img/loves-labours-lost.jpg"',
         answerImgAlt: '"A scene from Love\'s Labour\'s Lost"'
       },
