@@ -33,7 +33,7 @@ img {
 }
 
 header { 
-  margin: 0px;
+  margin: 0 auto;
   padding: 0px;
   background-image: url('https://payload.cargocollective.com/1/22/728149/12658948/elizabethan-woman-online_1000.jpg');
   background-size: cover;
@@ -124,7 +124,18 @@ button {
 }
 
 #result-play {
+  font-size: 18px;
   margin-top: -30px;
+}
+
+#result-score {
+  font-size: 25px;
+
+}
+
+#result-quote {
+  font-size: 30px;
+  
 }
 
 @media all and (min-width: 601px) {
@@ -161,7 +172,17 @@ button {
   }
 
   #result-play {
+    font-size: 25px;
     margin-top: -25px;
+  }
+
+  #result-score {
+    font-size: 32px;
+
+  }
+
+  #result-quote {
+    font-size: 45px;
   }
 
 }
@@ -170,6 +191,7 @@ button {
 
 p {
   padding: 15px 10px;
+}
 }
 
 

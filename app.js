@@ -221,19 +221,19 @@ function generateQuestionElement() {
       <form>
       <h3 class="question">${currentQuestion}</h3>
           <label for='option-a'>
-          <input type='radio' name='option' value='a' id='option-a'/>
+          <input type='radio' name='option' value='a' id='option-a' required/>
           ${answerA}</label>
           <br>
           <label for='option-b'>
-          <input type='radio' name='option' value='b' id='option-b'/>
+          <input type='radio' name='option' value='b' id='option-b' required/>
           ${answerB}</label>
           <br>
           <label for='option-c'>
-          <input type='radio' name='option' value='c' id='option-c'/>
+          <input type='radio' name='option' value='c' id='option-c' required/>
           ${answerC}</label>
           <br>
           <label for='option-d'>
-          <input type='radio' name='option' value='d' id='option-d'/>
+          <input type='radio' name='option' value='d' id='option-d' required/>
           ${answerD}</label>
           <br>
       <button type="submit" id="submit-answer">Submit</button>
@@ -243,7 +243,7 @@ function generateQuestionElement() {
 };
 
 function generateAnswerElement() {
-  i = STORE.questionNumber - 1; 
+  const i = STORE.questionNumber - 1; 
   const currentAnswer= STORE.questions[i].answerText;
   const currentAnswerImage= STORE.questions[i].answerImg;
   const currentAnswerAlt= STORE.questions[i].answerImgAlt;
@@ -293,7 +293,7 @@ function generateAnswerElement() {
     if (score === STORE.outcomes[i].ansCorrect) {
       return `
       <div class="item">
-        <h1>Final Score: <span id="number-correct">${score}</span>/7</h1>
+        <h1 id="result-score">Final Score: <span id="number-correct">${score}</span>/7</h1>
         <div class="item">
         <img src=${STORE.outcomes[i].outcomeImg} alt=${STORE.outcomes[i].outcomeImgAlt} id="outcome-img">
       </div>
@@ -347,7 +347,7 @@ function generateAnswerElement() {
     if ($("input:radio[name='option']:checked").length <=0 ) {
         alert('Please select an answer!');
     } else {
-    i = STORE.questionNumber - 1; 
+    const i = STORE.questionNumber - 1; 
     const userAnswer = $("input[type=radio]:checked").val();
     console.log(userAnswer);
     const correctAnswer = STORE.questions[i].correctAnswer; 
