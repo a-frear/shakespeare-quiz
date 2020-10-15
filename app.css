@@ -119,6 +119,14 @@ button {
   margin: -12px 0px 30px 0px;
 }
 
+#outcome-img {
+  margin: 10px 0px -15px 0px;
+}
+
+#result-play {
+  margin-top: -30px;
+}
+
 @media all and (min-width: 601px) {
   header, p, h2, h3 {
     max-width: 1500px;
@@ -140,13 +148,20 @@ button {
     padding: 15px 300px;
   }
 
-
   img {
     margin: 15px;
   }
 
   #intro-quote, #next-question, #result  {
     margin: 5px 0px 45px 0px;
+  }
+
+  #outcome-img {
+    margin: 10px 0px 0px 0px;
+  }
+
+  #result-play {
+    margin-top: -25px;
   }
 
 }

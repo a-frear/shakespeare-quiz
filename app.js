@@ -274,7 +274,7 @@ function generateAnswerElement() {
     <h3 id="answer">${currentAnswer}</h3>
   </div>
   <div class="item">
-    <img src=${currentAnswerImage} id="answer-img" alt=${currentAnswerAlt}></main>
+    <img src=${currentAnswerImage} id="answer-img" alt=${currentAnswerAlt}>
   </div>
   <div class="item">
       <p id="explanation">${currentExplanation}</p>
@@ -295,7 +295,7 @@ function generateAnswerElement() {
       <div class="item">
         <h1>Final Score: <span id="number-correct">${score}</span>/7</h1>
         <div class="item">
-        <img src=${STORE.outcomes[i].outcomeImg} alt=${STORE.outcomes[i].outcomeImgAlt}>
+        <img src=${STORE.outcomes[i].outcomeImg} alt=${STORE.outcomes[i].outcomeImgAlt} id="outcome-img">
       </div>
         <h2 id="result-quote">${STORE.outcomes[i].quote}</h2>
         <h3 id="result-play">${STORE.outcomes[i].play}</h3>
