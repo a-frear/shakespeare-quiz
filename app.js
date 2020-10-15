@@ -71,7 +71,7 @@ const STORE = {
         ],
         correctAnswer: 'b',
         answerText: 'Love',
-        explanation: '"Love" appears 2,191 times in Shakespeare works, according to the website Open Source Shakespeare. Among the plays, "Two Gentlemen of Verona" leads the pack with occurrences in 104 speeches, followed by "Romeo and Juliet" (94 speeches) and "A Midsummer Night\'s Dream" (79 speeches). "Hate" occurs only 184 times in Shakespeare\'s work.',
+        explanation: '"Love" is used 2,191 times in Shakespeare\'s works, according to <a href="https://www.opensourceshakespeare.org/" target="_blank">Open Source Shakespeare</a>. In "Two Gentlemen of Verona," "love" is uttered 104 times, followed by "Romeo and Juliet" (94) and "A Midsummer Night\'s Dream" (79). "Hate" occurs only 184 times in Shakespeare\'s work (although he does make use of "abhor" quite often). <strong>Love isn\'t the absolute most used word in Shakespeare\'s canon though...</strong> that would be the word (drumroll please...) "the."',
         answerImg: '"./img/love-shakespeare.jpg"',
         answerImgAlt: '"Claire Danes and Leonardo DiCaprio in Romeo and Juliet"'
       },
