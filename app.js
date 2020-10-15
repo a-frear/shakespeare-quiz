@@ -218,7 +218,7 @@ function generateQuestionElement() {
       <h4>Question #${number}</h4>
       <h5>Current Score: ${numCorrect}/${numQues}</h5>
       <div class ="item">
-      <form>
+      <form id="question-form">
       <h3 class="question">${currentQuestion}</h3>
           <label for='option-a'>
           <input type='radio' name='option' value='a' id='option-a' required/>
@@ -341,7 +341,7 @@ function generateAnswerElement() {
 
 
   function submitAnswer() {
-    $('main').on('click', '#submit-answer', function (e) {
+    $('main').on('submit', '#question-form', function (e) {
       e.preventDefault();
       console.log('submitting answer');
     if ($("input:radio[name='option']:checked").length <=0 ) {
