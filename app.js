@@ -217,9 +217,9 @@ function generateQuestionElement() {
     <div class ="item">
       <h4>Question #${number}</h4>
       <h5>Current Score: ${numCorrect}/${numQues}</h5>
-      <h3 class="question">${currentQuestion}</h3>
       <div class ="item">
-        <form>
+      <form>
+      <h3 class="question">${currentQuestion}</h3>
           <label for='option-a'>
           <input type='radio' name='option' value='a' id='option-a'/>
           ${answerA}</label>
@@ -235,10 +235,9 @@ function generateQuestionElement() {
           <label for='option-d'>
           <input type='radio' name='option' value='d' id='option-d'/>
           ${answerD}</label>
-        </form>
-      </div>
-      <div class ="item">
-      <button id="submit-answer">Submit</button>
+          <br>
+      <button type="submit" id="submit-answer">Submit</button>
+      </form>
       </div>`
   
 };
@@ -343,7 +342,11 @@ function generateAnswerElement() {
 
   function submitAnswer() {
     $('main').on('click', '#submit-answer', function (e) {
+      e.preventDefault();
       console.log('submitting answer');
+    if ($("input:radio[name='option']:checked").length <=0 ) {
+        alert('Please select an answer!');
+    } else {
     i = STORE.questionNumber - 1; 
     const userAnswer = $("input[type=radio]:checked").val();
     console.log(userAnswer);
@@ -358,7 +361,7 @@ function generateAnswerElement() {
       console.log('score:' + STORE.score);
     }
     }
-    );
+  });
   }
 
   function nextQuestion() {
