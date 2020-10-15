@@ -107,6 +107,10 @@ button {
   padding: 5px;
 }
 
+#intro-quote, #next-question, #result {
+  margin: -12px 0px 30px 0px;
+}
+
 @media all and (min-width: 601px) {
   header, p, h2, h3 {
     max-width: 1500px;
@@ -133,6 +137,10 @@ button {
     margin: 15px;
   }
 
+  #intro-quote, #next-question, #result  {
+    margin: 5px 0px 45px 0px;
+  }
+
 }
 
 @media all and (max-width: 1050px) {
@@ -140,4 +148,7 @@ button {
 p {
   padding: 15px 10px;
 }
+
+
+
 }

@@ -198,7 +198,7 @@ const STORE = {
     </div>
     <div class="item">
     <button id="start-button">Start here!</button></a>
-    <h4>“Go wisely and slowly. Those who rush stumble and fall.”</h4>
+    <h4 id="intro-quote">“Go wisely and slowly. Those who rush stumble and fall.”</h4>
     </div>`;
   }
 
