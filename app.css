@@ -78,6 +78,14 @@ p {
   padding: 5px;
 }
 
+form {
+  margin-top: -10px;
+}
+
+.question {
+  margin-bottom: 18px;
+}
+
 label {
   font-size: 20px;
 }
