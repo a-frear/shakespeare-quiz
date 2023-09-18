@@ -9,41 +9,44 @@
 html {
   background-color: #ead2ac;
   box-sizing: border-box;
- 
 }
 
 body {
-  font-family: 'PT Serif Caption';
+  font-family: "PT Serif Caption";
   margin: 0;
+  text-align: center;
 }
 
 .group {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-header, p, img, h2, h3 {
+header,
+p,
+img,
+h2,
+h3 {
   max-width: 600px;
-  
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img {
   width: 100%;
 }
 
-header { 
+header {
   margin: 0 auto;
   padding: 0px;
-  background-image: url('https://payload.cargocollective.com/1/22/728149/12658948/elizabethan-woman-online_1000.jpg');
+  background-image: url("https://payload.cargocollective.com/1/22/728149/12658948/elizabethan-woman-online_1000.jpg");
   background-size: cover;
-  font-family: 'Zilla Slab Highlight', cursive;
+  font-family: "Zilla Slab Highlight", cursive;
   min-height: 150px;
   color: white;
-  text-shadow: -1px 1px 0 #000,
-  1px 1px 0 #000,
- 1px -1px 0 #000,
--1px -1px 0 #000;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
 
 #header-1 {
@@ -57,10 +60,10 @@ header {
   padding: 5px;
 }
 
-h3, h4 {
-  font-family: 'Averia Serif Libre';
+h3,
+h4 {
+  font-family: "Averia Serif Libre";
   padding: 5px;
-
 }
 
 h5 {
@@ -101,12 +104,20 @@ button {
   background: white;
 }
 
+.options {
+  list-style: none;
+  text-align: left;
+  width: fit-content;
+  margin: 0 auto;
+  padding-left: 0;
+}
+
 #answer {
   font-size: 30px;
 }
 
 #result-quote {
-  font-family: 'Averia Serif Libre';
+  font-family: "Averia Serif Libre";
   font-size: 45px;
   padding: 5px;
 }
@@ -115,7 +126,9 @@ button {
   padding: 5px;
 }
 
-#intro-quote, #next-question, #result {
+#intro-quote,
+#next-question,
+#result {
   margin: -12px 0px 30px 0px;
 }
 
@@ -130,17 +143,21 @@ button {
 
 #result-score {
   font-size: 25px;
-
 }
 
 #result-quote {
   font-size: 30px;
-  
 }
 
 @media all and (min-width: 601px) {
-  header, p, h2, h3 {
-    max-width: 1500px;
+  /* p,
+  h2,
+  h3 {
+    max-width: 1400px;
+  } */
+
+  header {
+    max-width: 100vw;
   }
 
   body {
@@ -163,7 +180,9 @@ button {
     margin: 15px;
   }
 
-  #intro-quote, #next-question, #result  {
+  #intro-quote,
+  #next-question,
+  #result {
     margin: 5px 0px 45px 0px;
   }
 
@@ -178,22 +197,15 @@ button {
 
   #result-score {
     font-size: 32px;
-
   }
 
   #result-quote {
     font-size: 45px;
   }
-
 }
 
 @media all and (max-width: 1050px) {
-
-p {
-  padding: 15px 10px;
-}
-}
-
-
-
+  p {
+    padding: 15px 10px;
+  }
 }
